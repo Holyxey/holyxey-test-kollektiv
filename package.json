@@ -4,9 +4,9 @@
   "private": true,
   "scripts": {
     "build": "nuxt build",
-    "dev": "nuxt dev",
+    "dev": "nuxt dev --host",
     "generate": "nuxt generate",
-    "github": "git pull && bun install && nuxt generate"
+    "github": "bun nuxt cleanup && bun install && nuxt generate"
   },
   "dependencies": {
     "nuxt": "^4.1.3",

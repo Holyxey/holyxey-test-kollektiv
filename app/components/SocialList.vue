@@ -3,9 +3,9 @@
 </script>
 
 <template>
-  <div class="flex items-center justify-center gap-2">
+  <div class="flex items-center justify-center">
     <a
-      class="ease-cubic opacity-50 transition-all duration-300 hover:opacity-100"
+      class="ease-cubic p-2 opacity-50 transition-all duration-300 hover:opacity-100"
       href="https://t.me/holyxey"
       target="_blank"
     >
@@ -13,7 +13,7 @@
     </a>
 
     <a
-      class="ease-cubic opacity-50 transition-all duration-300 hover:opacity-100"
+      class="ease-cubic p-2 opacity-50 transition-all duration-300 hover:opacity-100"
       href="https://github.com/Holyxey/holyxey-test-kollektiv"
       target="_blank"
     >
@@ -21,8 +21,8 @@
     </a>
 
     <a
-      class="ease-cubic opacity-50 transition-all duration-300 hover:opacity-100"
-      href="https://github.com/Holyxey/holyxey-test-kollektiv"
+      class="ease-cubic p-2 opacity-50 transition-all duration-300 hover:opacity-100"
+      href="https://www.linkedin.com/in/holyxey/"
       target="_blank"
     >
       <Icon width="20" icon="hugeicons:linkedin-01" />

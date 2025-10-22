@@ -34,7 +34,7 @@
       <input
         placeholder="7"
         @input="handleInput"
-        :size="Math.max(1, inputModel?.replaceAll(' ', '').length || 1)"
+        :size="Math.max(1, (inputModel && inputModel?.length) || 1)"
         type="tel"
         :class="[
           'transition-all',
