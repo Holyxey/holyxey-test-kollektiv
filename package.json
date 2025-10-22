@@ -6,7 +6,7 @@
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
-    "github": "nuxt generate"
+    "github": "git pull && bun install && nuxt generate"
   },
   "dependencies": {
     "nuxt": "^4.1.3",
