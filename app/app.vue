@@ -1,3 +1,3 @@
 <template>
-  <TestWrapper label="Alex Yurin's" caption="salary" />
+  <TestWrapper label="Alex Yurin" caption="salary" />
 </template>
