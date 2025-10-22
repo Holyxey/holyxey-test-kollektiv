@@ -12,6 +12,8 @@
 
   --font-sans: "Inter", sans-serif;
   --font-mono: "Koulen", monospace;
+
+  --ease-cubic: cubic-bezier(0.65, 1.2, 1, 1);
 }
 
 #holyxey {
