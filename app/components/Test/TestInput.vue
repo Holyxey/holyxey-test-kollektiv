@@ -38,9 +38,9 @@
         type="tel"
         :class="[
           'transition-all',
-          'min-w-[72px] rounded-md border-[1.5px] py-2 ps-2',
-          'border-light-grey hover:border-mid-grey',
-          inputModel && 'border-primary-light',
+          'min-w-[72px] rounded-md py-2 ps-2 outline',
+          'outline-light-grey hover:outline-mid-grey',
+          inputModel ? 'outline-primary-light outline-[1.5px]' : 'outline',
         ]"
       />
       <p class="text-[18px] font-light">{{ caption }}</p>
