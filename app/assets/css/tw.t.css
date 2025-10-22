@@ -1,0 +1,19 @@
+@import "tailwindcss";
+@import "./fonts.css";
+
+@theme {
+  --color-primary: #3d06d7;
+  --color-primary-light: #906fee;
+
+  --color-mid-grey: #aa9dce;
+  --color-light-grey: #cfcadf;
+
+  --color-text: #1e0e4c;
+
+  --font-sans: "Inter", sans-serif;
+  --font-mono: "Koulen", monospace;
+}
+
+#holyxey {
+  @apply flex min-h-[100dvh] bg-zinc-100;
+}
