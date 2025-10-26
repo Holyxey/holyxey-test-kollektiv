@@ -14,7 +14,7 @@
 </script>
 
 <template>
-  <div
+  <label
     :class="[
       'text-text',
       'flex items-center gap-3',
@@ -24,5 +24,5 @@
   >
     <TestImage :highlight="Boolean(inputModel)" />
     <TestInput :label :caption v-model="inputModel" />
-  </div>
+  </label>
 </template>

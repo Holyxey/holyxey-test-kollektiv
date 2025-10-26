@@ -14,7 +14,7 @@
       'outline -outline-offset-1',
       highlight ? 'outline-primary' : 'outline-transparent',
 
-      'border-4 border-white',
+      'border-4 border-white bg-zinc-200',
     ]"
   />
 </template>
